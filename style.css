@@ -1,0 +1,108 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container principal (Card) */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Para a tabela, precisamos de um container mais largo */
+.relatorio-container {
+    max-width: 90%;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos da Tabela */
+.tabela-resultados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabela-resultados th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-resultados td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 14px;
+}
+
+.linha-sucesso { background-color: #28a745; color: white; }
+.linha-erro { background-color: #dc3545; color: white; }
+
+.btn-logout {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: #dc3545;
+    font-size: 12px;
+    border: 1px solid #dc3545;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    background: #6c757d;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+}

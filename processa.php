@@ -80,8 +80,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['planilha'])) {
         }
 
         // --- EXIBIÇÃO DO RESUMO VISUAL ---
-        echo "<h2>Resumo da Importação: $nomeArquivo</h2>";
-        echo "<p>✅ Sucesso: <strong>$totalSucesso</strong> | ❌ Falhas: <strong>$totalFalha</strong></p>";
+        echo "<link rel='stylesheet' href='style.css'>";
+       echo "<div class='container relatorio-container'>";
+echo "<h3>Resultados da Importação</h3>";
+        echo "<p> Sucesso: <strong>$totalSucesso</strong> |  Falhas: <strong>$totalFalha</strong></p>";
 
         echo "<table border='1' style='border-collapse: collapse; width: 100%; font-family: sans-serif;'>";
         echo "<tr style='background: #333; color: white;'>
