@@ -95,7 +95,7 @@ echo "<h3>Resultados da Importação</h3>";
               </tr>";
 
         foreach ($relatorio as $item) {
-            // Cores conforme solicitado: Verde/Branco para sucesso, Vermelho/Branco para erro
+            
             $corFundo = $item['status'] ? "#28a745" : "#dc3545"; 
             $textoStatus = $item['status'] ? "INSERIDO" : "NÃO INSERIDO";
 

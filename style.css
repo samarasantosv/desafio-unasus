@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-/* Container principal (Card) */
+/* Container principal */
 .container {
     background-color: #fff;
     padding: 30px;
@@ -19,7 +19,7 @@ body {
     max-width: 400px;
 }
 
-/* Para a tabela, precisamos de um container mais largo */
+
 .relatorio-container {
     max-width: 90%;
 }

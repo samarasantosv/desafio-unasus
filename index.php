@@ -2,7 +2,7 @@
 include 'conexao.php';
 session_start();
 
-$erro = ""; // Criamos uma variável para exibir o erro dentro do layout
+$erro = ""; // variável para exibir o erro dentro do layout
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             margin-bottom: 15px;
             border: 1px solid #ddd;
             border-radius: 4px;
-            box-sizing: border-box; /* Garante que o padding não aumente a largura */
+            box-sizing: border-box; 
         }
         button {
             width: 100%;
