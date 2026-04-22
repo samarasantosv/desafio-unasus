@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 
 <h2>Login</h2>
-<form method="POST">
+<form method="POST" action="" enctype="multipart/form-data">
     <label>Email:</label>
     <input type="email" name="email" required><br>
     
